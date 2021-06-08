@@ -1,0 +1,8 @@
+
+node_modules/
+package.json
+mainSCSS
+main.css.map
+package-lock.json
+styles.txt
+Wireframe/

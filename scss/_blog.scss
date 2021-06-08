@@ -1,15 +1,37 @@
 /*INICIO TESTIMONIOS BLOG*/
 
-.testi-title{
+.testi-title .usos-title{
+
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+ 
   p{
     
-    font-size: 60px;
-    text-shadow: 2px 2px 6px #262626;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 600;
     color: #262626;
     text-align: center;
     margin-top: 10% ;
   }
+
+  h4 {
+    text-align: center;
+      margin-bottom: 30px;
+      color: #666464;
+      font-size: 2.5em;
+  }
+  .testimonies__barra--verde {
+    width: 10%;
+    background-color: #00C099;
+    border: 1px solid #00C099;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+
 }
 
 
@@ -88,17 +110,37 @@ background: $color-classy;
 
 /*INICIO GALERIA DE BLOG*/
 
-.heading{
+.usos-title {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+ 
+  p{
+    
+    font-size: 50px;
+    font-weight: 600;
+    color: #262626;
+    text-align: center;
+    margin-top: 10% ;
+  }
+
+  h4 {
+    text-align: center;
+      margin-bottom: 30px;
+      color: #666464;
+      font-size: 2.5em;
+  }
+  .testimonies__barra--verde {
+    width: 10%;
+    background-color: #00C099;
+    border: 1px solid #00C099;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   
-    p{
-       font-size: 60px;
-      text-shadow: 2px 2px 6px #262626;
-      font-weight: 500;
-      color: #262626;
-      text-align: center;
-      margin-top: 10% ;
-    }
-  
+
 }
 
 .gallery-block{

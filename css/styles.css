@@ -455,23 +455,23 @@ nav ul li a:hover {
   list-style: none; }
 
 /*INICIO TESTIMONIOS BLOG*/
-.testi-title .usos-title {
+.testi-title {
   display: grid;
   height: 100%;
   place-items: center;
   text-align: center; }
-  .testi-title .usos-title p {
+  .testi-title p {
     font-size: 50px;
     font-weight: 600;
     color: #262626;
     text-align: center;
     margin-top: 10%; }
-  .testi-title .usos-title h4 {
+  .testi-title h4 {
     text-align: center;
     margin-bottom: 30px;
     color: #666464;
     font-size: 2.5em; }
-  .testi-title .usos-title .testimonies__barra--verde {
+  .testi-title .testimonies__barra--verde {
     width: 10%;
     background-color: #00C099;
     border: 1px solid #00C099;

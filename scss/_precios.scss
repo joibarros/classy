@@ -1,0 +1,128 @@
+/*PRECIOS*/
+
+.precios__title {
+    margin-top: 50px;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+//MAPAS
+$colors: (avanzado:$color-classy, ultra:#944392, empresarial:#138db2);
+
+@each $plan-name, $text-color in $colors{
+    .plan-#{$plan-name}{
+        color:$text-color;
+        font-size: 3em;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 50px;
+
+    }
+
+}
+
+.plan-free{
+    display: inline;
+}
+
+.plan-free{
+
+    h5{
+    color:#e0d204;
+    font-size: 3em;
+    font-weight: 700;
+}
+}
+
+.check-amarillo{
+    width: 25px;
+}
+
+//MIXINS
+
+@mixin cajasPrecios () {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+    margin: 50px 10px 50px 20px;
+
+}
+
+
+.card {
+    @include cajasPrecios()
+}
+
+@mixin cardText () {
+    font-size: 1.5em;
+    color: $font-color;
+    font-weight: 400;
+}
+
+.card-text {
+    @include cardText()
+}
+
+@mixin cardPrice {
+
+    font-size: 4em;
+    font-weight: 700;
+    color: $font-color;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.price {
+    @include cardPrice()
+}
+
+@mixin tryBtn ($borderColor, $bgColor, $letterColor, $marginLeft, $marginTop) {
+    border-radius: 3px;
+    border: 2px solid $borderColor;
+    background-color: $bgColor;
+    color: white;
+    font-size: 20px;
+    margin-top: $marginTop;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 600;
+    margin-left: $marginLeft;
+}
+
+.btn-avanzado {
+    @include tryBtn($color-classy, $color-classy, white, 70px, 30px)
+}
+
+.btn-ultra {
+    @include tryBtn(#944392,#944392,white, 70px, 26px )
+}
+
+.btn-empresarial {
+    @include tryBtn(#138DB2,#138DB2, white, 100px, 17px )
+    
+}
+
+@mixin cardList () {
+    font-size: 1.5em;
+    line-height: 30px;
+    margin-top: 60px;
+    margin-left: 10px;
+    
+}
+
+.card-list{
+    @include cardList()
+}
+
+.card-list li {
+    list-style: none;
+}
+
+
+
+
+
+

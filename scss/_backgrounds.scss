@@ -1,0 +1,109 @@
+/*INDEX BACKGROUND*/
+
+.background__index{
+    background-image     : url(../img/fondo-inicio.png);
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-position-x: -200px;
+    background-position-y: -100px;
+    background-size      : 120%;
+    height               : 700px;
+    position             : relative;
+    z-index              : 0;
+
+}
+
+
+.background__index::before {
+    content         : '';
+    position        : absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    height          : 700px;
+    top             : 0;
+    bottom          : 0;
+    left            : 0;
+    right           : 0;
+
+}
+
+/*FUNCIONES BACKGROUND*/
+
+
+.background__funciones {
+
+    background-image     : url(../img/Small-business-guy-at-workshop-v2.png);
+    height               : 700px;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: -200px;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    top                  : 0px;
+
+}    
+
+// .background__funciones{
+//     background-size      : 1400px;
+//     background-position-x: center;
+//     background-position-y: 0px;
+//     height               : 700px;
+   
+ 
+// }
+
+
+/*BLOG BACKGROUND*/
+
+
+.background__blog {
+
+    background-image     : url(../img/usos-bg.jpg);
+    height               : 700px;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: -83px;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    top                  : 0px;
+    z-index              : 0;
+
+
+}
+
+/*PRECIOS BACKGROUND*/
+
+
+.background__precios {
+    background-image     : url(../img/sync-and-manage-your-online-inventory-FI.jpg);
+    height               : 700px;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: -1px;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    top                  : 0px;
+}
+
+/*CONTACTO BACKGROUND*/
+
+.background__contacto {
+    background-image     : url(../img/black-business-computer-desk.jpg);
+    height               : 1000px;
+    background-position-x: center;
+    background-position-y: -250px;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    top                  : 0px;
+}
+
+/*PAGE NOT FOUND*/
+
+.background_page404 {
+    background-image     : url(../img/Fondo-page404.png);
+    height               : 600px;
+    background-position-x: center;
+    background-position-y: 0px;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    top                  : 0px;
+}

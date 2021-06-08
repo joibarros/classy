@@ -1,0 +1,50 @@
+/*INICIO FORMULARIO DE CONTACTO*/
+.contactForm{
+
+       
+    p{
+        color: #fff;
+        font-size: 4em;
+        font-weight: 700;
+    }
+
+    small{
+        font-size: 1.8em;
+        color: #fff;
+    }
+}
+
+.label{
+    font-size: 1.6em;
+    color: white;
+    font-weight: normal;
+}
+
+
+.form-control{
+    background: transparent;
+    color: white;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 1.6em;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+
+.form-control:focus{
+    outline: none;
+    background: transparent;
+    color: white;
+    font-weight: 200;
+}
+
+hr{
+    background: white;
+}
+
+.btn-send{
+    font-size: 1.6em;
+    width: 100%;
+    color: #fff;
+    background: $color-classy;
+}

@@ -1,4 +1,4 @@
-
+/*INICIO HEADER*/
 
 .header__img--logo {
     width        : 150px;
@@ -53,8 +53,11 @@ nav ul li a:hover {
     padding: 10px 20px;
     margin: 30px 0 90px 0;
     outline: none;
-    position: relative; }
-  
-  .section__boton--enlace {
+    position: relative;
+  a{
     text-decoration: none;
-    color: #fff; }
+    color: #fff; 
+  }
+  }
+  
+  /*FIN DE HEADER*/

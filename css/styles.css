@@ -625,7 +625,7 @@ nav ul li a:hover {
   margin-bottom: 15px; }
 
 .form-control:focus {
-  outline: none;
+  outline: none !important;
   background: transparent;
   color: white;
   font-weight: 200; }
